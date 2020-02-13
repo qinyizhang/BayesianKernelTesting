@@ -6,7 +6,7 @@ This directory provides code and some illustrative examples for the Bayesian Ker
 on posterior inference with fixed theta value. 
 - PreCompile_stanmodel.py precompiles the stan models needed for posterior inference which will save computational time. 
 - 2DGaussian_part1.py and 2DGaussian_part2.py are files to reproduce the results in the project for the 2 dimensional 
-Gaussian experiment. They are to be used in the SLURM batch processing system by 
+Gaussian experiment. They are to be used in Slurm by 
 calling: 
 ```
 sbatch SLURM_2DGaussian_part1.sh
